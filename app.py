@@ -1,5 +1,5 @@
 import streamlit as st
-import tensorflow as tf
+import tflite_runtime.interpreter as tflite
 import numpy as np
 from PIL import Image
 
@@ -10,7 +10,7 @@ LABELS = ["Healthy", "Early Blight", "Late Blight", "Leaf Spot"]
 
 @st.cache_resource
 def load_model(path):
-    interpreter = tf.lite.Interpreter(model_path=path)
+    interpreter = tflite.Interpreter(model_path=path)
     interpreter.allocate_tensors()
     return interpreter
 
