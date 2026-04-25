@@ -1,4 +1,4 @@
 streamlit
-tf-nightly
+tensorflow-cpu
 numpy
 Pillow
