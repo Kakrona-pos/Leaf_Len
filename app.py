@@ -1,4 +1,5 @@
-import tflite_runtime.interpreter as tflite
+# import tflite_runtime.interpreter as tflite
+from ai_edge_litert.interpreter import Interpreter
 import streamlit as st
 import numpy as np
 from PIL import Image
@@ -10,7 +11,7 @@ LABELS = ["Healthy", "Early Blight", "Late Blight", "Leaf Spot"]
 
 @st.cache_resource
 def load_model(path):
-    interpreter = tflite.Interpreter(model_path=path)
+    interpreter = Interpreter(model_path=path)
     interpreter.allocate_tensors()
     return interpreter
 
