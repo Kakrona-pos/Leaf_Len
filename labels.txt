@@ -1,0 +1,16 @@
+Corn Common Rust
+Corn Gray Leaf Spot
+Corn Healthy
+Corn Northern Leaf Blight
+Potato Early Blight
+Potato Healthy
+Potato Late Blight
+Tomato Bacterial Spot
+Tomato Early Blight
+Tomato Healthy
+Tomato Late Blight
+Tomato Leaf Mold
+Tomato Septoria Leaf Spot
+Tomato Target Spot
+Tomato Two-spotted Spider Mutant
+Tomato Yellow Leaf Curl Virus
