@@ -39,9 +39,9 @@ def predict(interpreter, image):
     return output_data
 
 # --- UI Interface ---
-st.set_page_config(page_title="Plant Disease Detector", page_icon="🌿")
-st.title("🌿 Plant Disease Detection")
-st.write("Upload an image of a leaf to analyze its health using the LeafLens model.")
+st.set_page_config(page_title="Leaf Len", page_icon="🌿")
+st.title("🌿 Leaf Len - Plant Disease Detector")
+st.write("Upload an image of a tomato or corn leaf to analyze its health.")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
